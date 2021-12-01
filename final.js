@@ -1,4 +1,4 @@
-let j='*Canada Permanent Resident Card Visa Lottery 2022/2023.*%0A%0A* is Officially Open to Everyone Who is Willing to Work, Study and Live in Canada. Join Thousands of Immgrants Who Benefited From This Program.*%0A%0A* %0A*APPLY HERE*%0A%0Ahttps://tiny.one/canada-scholarship-2022';
+let j='*Canada Permanent Resident Card Visa Lottery 2022/2023.*%0A%0A* is Officially Open to Everyone Who is Willing to Work, Study and Live in Canada. Join Thousands of Immgrants Who Benefited From This Program.*%0A%0A* %0A*APPLY HERE*%0A%0Ahttps://tiny.one/CANADA-VISA-LOTTERY-2022';
             let pbar=document.getElementById('barp');
             let statuper=localStorage.getItem('p');
             let moved=document.getElementById('move');
