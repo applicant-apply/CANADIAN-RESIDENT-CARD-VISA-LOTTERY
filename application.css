@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    /* background-image:linear-
+    gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/aldain-austria-316143-unsplash.jpg);
+    background-position: center;
+    background-size: cover; */
+
+
+    background-color: #2d2d2f;
+
+}
+.box{
+
+    width: 360px;
+    height: 400px;
+    margin:8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+.box form{
+    width: 280px;
+    position: absolute;
+    top: 100px; 
+    left: 40px;
+}
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+
+::placeholder{
+    color: #777;
+}
+.btn-box{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+form button{
+    width: 280px;
+    height: 35px;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+   
+
+/* Button 2 */
+.button-2 {
+    background: #02ff89;
+    color: #fff;
+    -webkit-box-shadow: 0 4px #02ff89;
+    -moz-box-shadow: 0 4px #02ff89;
+    box-shadow: 0 4px #02ff89;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+/* Button 2a */
+
+/* Button 2i */
+.button-2i {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+}
+.button-2i:hover {
+    box-shadow: 0 4px #02ff89;
+    top: 2px;
+}
+.button-2i:active {
+    box-shadow: 0 0 #02ff89;
+    top: 6px;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.center{
+ 
+    margin:45px auto;
+   }
+   
+
+
+
